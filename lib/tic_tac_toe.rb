@@ -62,7 +62,7 @@ attr_accessor :board
     return num_of_turns 
   binding.pry
   
-    
+
   
   # def turn
     
