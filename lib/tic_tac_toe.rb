@@ -62,14 +62,7 @@ attr_accessor :board
     return num_of_turns 
   binding.pry
   
-    def current_player
-    if turn_count % 2 != 1 
-      "X"
-      else
-      "O"
-    end
     
-  end
   
   # def turn
     
