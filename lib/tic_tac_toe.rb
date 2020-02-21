@@ -68,6 +68,7 @@ attr_accessor :board
     else
       "O"
     end
+  end
   
   # def turn
     
@@ -135,4 +136,4 @@ attr_accessor :board
 #     puts "Cat's Game!"
 #       end
 #     end
- end
+# end
