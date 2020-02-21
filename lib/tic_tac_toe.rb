@@ -1,3 +1,4 @@
+requires 'pry'
 class TicTacToe
 
 WIN_COMBINATIONS = [
@@ -66,6 +67,7 @@ attr_accessor :board
       else
       "O"
     end
+    binding.pry
   end
   
   # def turn
