@@ -70,5 +70,16 @@ attr_accessor :board
   end
 end
 
-
+def turn
+  puts "Please enter 1-9:"
+  input = gets.strip
+  index = input_to_index(input)
+  piece = current_player
+  if valid_move?(index)
+    move(index, piece)
+    display_board
+  else
+    turn
+  end
+end
 end
