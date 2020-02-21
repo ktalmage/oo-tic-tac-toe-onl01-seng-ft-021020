@@ -91,7 +91,7 @@ end
         return win_combo
       else
       false
+      end
     end
-  end
-      
+  end    
 end
