@@ -66,7 +66,6 @@ attr_accessor :board
       "X"
       else
       "O"
-    binding.pry
     end
     
   end
