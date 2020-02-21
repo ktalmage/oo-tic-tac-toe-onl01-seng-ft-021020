@@ -137,3 +137,4 @@ attr_accessor :board
 #       end
 #     end
  end
+end
