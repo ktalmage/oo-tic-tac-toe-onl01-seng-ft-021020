@@ -62,7 +62,7 @@ attr_accessor :board
     return num_of_turns 
   
     def current_player
-    if turn_count % 2 == 0 
+    if turn_count % 2 == 1 
       "X"
       else
       "O"
