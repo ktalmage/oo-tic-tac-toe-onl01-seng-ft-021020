@@ -86,9 +86,9 @@ end
   def won?
     WIN_COMBINATIONS.detect do |win_combo,i|
       if(@board[win_combo][i]) == "X" && (@board[win_combo][i]) == "X" && (@board[win_combo][i]) == "X"
-        return win_combo
+        return win_combo.to_a
       elsif (@board[win_combo][i]) == "O" && (@board[win_combo][i]) == "O" && (@board[win_combo][i]) == "O"
-        return win_combo
+        return win_combo.to_a
       else
       return false
       end
