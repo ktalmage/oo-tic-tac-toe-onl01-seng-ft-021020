@@ -86,9 +86,9 @@ end
   def won?
     WIN_COMBINATIONS.detect do |win_combo|
       binding.pry
-      if(@board[win_combo][0]) == "X" && (@board[win_combo][1]) == "X" && (@board[win_combo][2]) == "X"
+      if(@board[win_combo[0]]) == "X" && (@board[win_combo[1]]) == "X" && (@board[win_combo[2]]) == "X"
         return win_combo
-      elsif (@board[win_combo][0]) == "O" && (@board[win_combo][1]) == "O" && (@board[win_combo][2]) == "O"
+      elsif (@board[win_combo[0]]) == "O" && (@board[win_combo[1]]) == "O" && (@board[win_combo[2]]) == "O"
         return win_combo
       else
       return false
