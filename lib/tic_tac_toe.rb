@@ -84,10 +84,10 @@ def turn
 end
 
   def won?
-    WIN_COMBINATIONS.detect do |win_combo|
-      if(@board[win_combo][0]) == "X" && (@board[win_combo][1]) == "X" && (@board[win_combo][2]) == "X"
+    WIN_COMBINATIONS.detect do |win_combo,i|
+      if(@board[win_combo][i]) == "X" && (@board[win_combo][i]) == "X" && (@board[win_combo][i]) == "X"
         return win_combo
-      elsif (@board[win_combo][0]) == "O" && (@board[win_combo][1]) == "O" && (@board[win_combo][2]) == "O"
+      elsif (@board[win_combo][i]) == "O" && (@board[win_combo][i]) == "O" && (@board[win_combo][i]) == "O"
         return win_combo
       else
       return false
