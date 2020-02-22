@@ -97,4 +97,6 @@ end
   @board.all?{|occupied| occupied != " "}
   end
   
+  
+  
 end
